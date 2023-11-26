@@ -1,0 +1,58 @@
+Grid
+
+Assignment
+
+1. What is a Grid?
+
+An intersection of vertical and horizontal lines is known as a grid.
+Major sections of a page are separated using CSS Grid layout.
+The grid layout enables us to construct grid structures represented in CSS rather
+than HTML.
+
+2. What is the difference between flex and grid?
+
+Flexbox:
+
+Primarily designed for one-dimensional layouts, either in a row or a column.
+Useful for laying out items in a single direction, either horizontally or vertically.
+Well-suited for creating flexible and dynamic layouts when the size of the items is unknown or varies.
+
+Grid:
+
+Designed for two-dimensional layouts, involving both rows and columns.
+Allows you to create complex grid-based layouts where items can be placed both horizontally and vertically.
+Suitable for creating more structured and grid-like designs, such as a traditional webpage layout.
+
+3. How can you define rows and cloumns for your grid?
+
+Using properties grid-row and grid-cloumn we can define the rows and columns for our grid.
+
+Grid-row: defines on which row to place an item. You can also state here,
+where the item will start, and where the item will end. To place an item, you
+can either use line numbers, or use span to define how many columns the
+item will span.
+
+Grid-column: defines on which column the item is to be placed. Like a row,
+here too, it can be stated where the item will start and end. Here again, you
+can either use line numbers, or use span to define how many columns the
+item will span.
+
+
+
+4. List any 2 properties of the grid item and grid container.
+
+Grid Container Properties:
+ 1. The display property with a value of grid is used to define a grid container.
+ 2. The 'grid-template-rows' and 'grid-template-columns'
+
+Grid item properties:
+ 1. The 'grid-row' and 'grid-column'
+ 2. And the 'grid-area'
+ 
+
+
+
+
+
+
+
